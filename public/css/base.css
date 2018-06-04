@@ -1,0 +1,60 @@
+
+body{
+  height: 500px;
+  padding: 0;
+  margin:0;
+}
+header{
+width: 100%;
+min-height: 50px;
+background-color: lightgreen;
+}
+
+aside{
+  height: 500px;
+  background-color: lightblue;
+  width: 20%;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+footer{
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  height: 15px;
+  align-self: flex-end;
+
+}
+nav{
+  display: flex;
+  height: 100%;
+}
+
+nav ul{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+}
+
+.main-content{
+  width: 80%;
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.list-no-style{
+  list-style: none;
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
